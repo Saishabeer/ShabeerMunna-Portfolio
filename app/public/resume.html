@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shabeer Munna S — Resume</title>
+  <style>
+    /* CSS for Print and Screen */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Inter';
+      color: #000;
+      background: #f0f2f5;
+      font-size: 11pt;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+    }
+    .page {
+      max-width: 8.5in; /* US Letter width */
+      margin: 40px auto;
+      background: #fff;
+      padding: 0.5in;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .header { text-align: center; margin-bottom: 20px; border-bottom: 2px solid #000; padding-bottom: 10px; }
+    h1 { font-size: 24pt; margin: 0 0 5px 0; text-transform: uppercase; font-weight: bold; }
+    .contact-info { font-size: 10.5pt; color: #333; }
+    .contact-info a { color: #000; text-decoration: none; }
+    .contact-info span { margin: 0 5px; }
+    
+    section { margin-top: 15px; }
+    h2 { 
+      font-size: 13pt; 
+      text-transform: uppercase; 
+      border-bottom: 1px solid #ccc; 
+      padding-bottom: 2px; 
+      margin-top: 0; 
+      margin-bottom: 8px; 
+      color: #222; 
+    }
+    h3 { font-size: 11pt; margin: 0; display: flex; justify-content: space-between; font-weight: bold; }
+    h4 { font-size: 11pt; margin: 0; font-weight: normal; font-style: italic; color: #444; display: flex; justify-content: space-between; }
+    p { margin: 5px 0; }
+    ul { margin: 5px 0 10px 0; padding-left: 20px; }
+    li { margin-bottom: 3px; }
+    
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 140px auto;
+      row-gap: 5px;
+      column-gap: 15px;
+      font-size: 10.5pt;
+    }
+    .skill-category { font-weight: bold; text-align: right; }
+    .desc { font-size: 10.5pt; }
+
+    /* Print settings */
+    @media print {
+      body { background: #fff; font-size: 10.5pt; }
+      .page { box-shadow: none; margin: 0; padding: 0.25in; max-width: 100%; }
+      .no-print { display: none; }
+    }
+    
+    .print-btn {
+      display: block; width: 200px; margin: 20px auto; padding: 10px;
+      background: #0062cc; color: white; border: none; font-weight: bold;
+      border-radius: 5px; cursor: pointer; text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<button class="print-btn no-print" onclick="window.print()">Download / Print PDF</button>
+
+<div class="page">
+  <header class="header">
+    <h1>SHABEER MUNNA S</h1>
+    <div class="contact-info">
+      <a href="mailto:shabeermunna2003@gmail.com">shabeermunna2003@gmail.com</a> <span>|</span>
+      <a href="tel:+916380597283">+91 6380597283</a> <span>|</span>
+      <a href="https://www.linkedin.com/in/shabeer-munna-seppaiyan-b78784231">LinkedIn</a> <span>|</span>
+      <a href="https://github.com/Saishabeer">GitHub</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Professional Summary</h2>
+    <p class="desc">Aspiring Software Developer, eager to craft scalable, high-quality software, push ideas into impactful products, and grow alongside the company’s innovation journey. Passionate about AI integrations, backend systems, and clean architecture.</p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <h3><span>B.Tech - Artificial Intelligence &amp; Data Science</span> <span>2021 - 2025</span></h3>
+    <h4><span>Kalaignarkarunanidhi Institute of Technology, Coimbatore</span> <span>CGPA: 8.2</span></h4>
+    <br>
+    <h3><span>Higher Secondary Certificate (HSC)</span> <span>2019 - 2021</span></h3>
+    <h4><span>G.H.S.S. Veerapandi, Tirupur</span> <span>Percentage: 80.6%</span></h4>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-category">AI / ML</div>
+      <div>PyTorch, TensorFlow, Gen AI, LLMs, RAG, LangChain, NLP, Computer Vision, Prompt Engineering</div>
+      
+      <div class="skill-category">Backend</div>
+      <div>Java, Python, Node.js, Express, Spring Boot, Django, SQL, PostgreSQL, MongoDB, REST APIs</div>
+
+      <div class="skill-category">Frontend</div>
+      <div>React, Vite, Tailwind CSS, WebSockets</div>
+      
+      <div class="skill-category">Tools &amp; Cloud</div>
+      <div>Git, Docker, AWS, Canva, Agile/Scrum, CI/CD</div>
+      
+      <div class="skill-category">Core &amp; Soft Skills</div>
+      <div>Data Structures, Object-Oriented Programming, Teamwork, Leadership, Attention to Detail</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <h3><span>AI Intern</span> <span>Aug 2025 - Feb 2026</span></h3>
+    <h4><span>Techjays, Coimbatore, Tamil Nadu</span></h4>
+    <ul>
+      <li>Worked on AI-driven product 'Scrum Master' with intelligent dashboard features.</li>
+      <li>Implemented calendar integration for scheduling and workflow coordination.</li>
+      <li>Performed sentiment analysis on meeting transcripts to evaluate team dynamics.</li>
+      <li>Collaborated with cross-functional teams for seamless AI backend integration.</li>
+    </ul>
+    
+    <br>
+
+    <h3><span>Software Developer Trainee</span> <span>June 2025</span></h3>
+    <h4><span>Zoho Incubation</span></h4>
+    <ul>
+      <li>Completed an intensive program covering Data Structures &amp; Algorithms (DSA), OOP principles, and SQL database design.</li>
+      <li>Studied the full Software Development Life Cycle (SDLC) with practical exposure to enterprise workflows and collaborative development.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    
+    <h3><span>Conversational AI Chatbot</span></h3>
+    <h4><span>Python, Django, Google Gemini, LangChain, ChromaDB</span></h4>
+    <ul>
+      <li>Built a full-stack AI chatbot with RAG-based document Q&A and real-time responses.</li>
+      <li>Implemented authentication, API key rotation, REST APIs, and Live Web Search capabilities.</li>
+      <li>Engineered robust conversational memory to handle multi-turn complex dialogue.</li>
+    </ul>
+
+    <h3><span>AI Hire Me Platform</span></h3>
+    <h4><span>React, Express, AI Integrations</span></h4>
+    <ul>
+      <li>Platform designed to showcase AI capabilities and match engineering talent with companies via integrated AI screening.</li>
+    </ul>
+
+    <h3><span>AI Voice Chat</span></h3>
+    <h4><span>Voice AI, WebSockets, Node.js</span></h4>
+    <ul>
+      <li>Real-time voice interactive platform enabling seamless voice-to-text and AI-generated responses over persistent connections.</li>
+    </ul>
+
+    <h3><span>Deep Fake Detection</span></h3>
+    <h4><span>Python, TensorFlow, ResNet-50, VGG-19</span></h4>
+    <ul>
+      <li>Developed a deep learning pipeline to detect manipulated images and video frames.</li>
+      <li>Utilized state-of-the-art CNNs to achieve high classification accuracy on synthetic media.</li>
+    </ul>
+
+    <h3><span>Machine Learning Models</span></h3>
+    <h4><span>Scikit-Learn, TensorFlow, Pandas</span></h4>
+    <ul>
+      <li>Suite of predictive models focused on classification and regression tasks analyzing real world data sets.</li>
+    </ul>
+
+    <h3><span>Real-Time Object Detection with Voice Output</span></h3>
+    <h4><span>Python, MobileNet, Text-to-Speech</span></h4>
+    <ul>
+      <li>Built a high-performance edge object detection system utilizing lightweight MobileNet models.</li>
+      <li>Integrated real-time Voice AI feedback for accessibility and automated narration.</li>
+    </ul>
+
+    <h3><span>Voice Assistant</span></h3>
+    <h4><span>OpenAI API, Python</span></h4>
+    <ul>
+      <li>Desktop voice assistant capable of performing tasks and answering queries using OpenAI models.</li>
+    </ul>
+
+    <h3><span>Railway Reservation System</span></h3>
+    <h4><span>Java, OOP, DSA</span></h4>
+    <ul>
+      <li>Developed a console-based reservation system implementing strict SOLID design principles.</li>
+      <li>Engineered complex state logic covering berth allocation, RAC queuing, waitlists, and cancellations.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <ul>
+      <li>NPTEL - Python for Data Science (ELITE)</li>
+      <li>Infosys - Introduction to Python</li>
+      <li>Infosys - Data Structures and Algorithms using Java</li>
+      <li>Coursera - Deep Learning for Real Estate Price Prediction</li>
+      <li>Coursera - Applied AI with DeepLearning</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Workshops &amp; Achievements</h2>
+    <ul>
+      <li><strong>Achievement:</strong> Solved 450+ coding problems on Learnlogicify.</li>
+      <li>Five-day workshop on Drone Technology at KIT.</li>
+      <li>Two-day workshop on Power Communication &amp; Human Empowerment at KIT.</li>
+      <li>One-day workshop on Python &amp; Hadoop hands-on labs at KIT.</li>
+    </ul>
+  </section>
+
+</div>
+
+</body>
+</html>
