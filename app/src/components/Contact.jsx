@@ -160,7 +160,7 @@ export default function Contact() {
         className="mb-20 relative z-10"
       >
         <motion.a
-          href="/resume.html"
+          href="resume.html"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.06, y: -2 }}

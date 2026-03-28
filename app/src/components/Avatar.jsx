@@ -145,7 +145,7 @@ export default function Avatar({ scrollProgress }) {
           }}
         >
           <img
-            src="/avatar.png"
+            src="avatar.png"
             alt="Shabeer Avatar"
             className="w-full h-full object-cover"
           />

@@ -21,7 +21,7 @@ export const portfolioData = {
       id: 1,
       role: "AI Intern",
       company: "Techjays",
-      logo: "/techjays.png",
+      logo: "techjays.png",
       duration: "Aug 2025 - Feb 2026",
       description: "Worked on AI-driven product 'Scrum Master' with intelligent dashboard features. Implemented calendar integration for scheduling and workflow coordination. Performed sentiment analysis on meeting transcripts and collaborated with cross-functional teams for AI integration.",
       highlights: ["AI Dashboard", "Sentiment Analysis", "Cross-Functional Agile"]
@@ -30,7 +30,7 @@ export const portfolioData = {
       id: 2,
       role: "Software Developer Trainee",
       company: "Zoho Incubation",
-      logo: "/zoho.png",
+      logo: "zoho.png",
       duration: "June 2025",
       description: "Completed an intensive program covering Data Structures & Algorithms (DSA), OOP principles, and SQL database design. Studied the full Software Development Life Cycle (SDLC) with practical exposure to enterprise workflows and collaborative development.",
       highlights: ["SDLC", "DSA", "OOP", "SQL"]
